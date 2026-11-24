@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Minimal Productivity Hub",
+    "slug": "minimal-productivity-hub",
+    "scheme": "productivityhub",
+    "web": { "output": "single" },
+    "version": "1.0.0",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "app.minimal.productivityhub"
+    },
+    "android": {
+      "permissions": ["android.permission.SCHEDULE_EXACT_ALARM"],
+      "package": "app.minimal.productivityhub"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-notifications",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
